@@ -1,0 +1,54 @@
+services:
+  # Landoop Fast Data Dev (Kafka, Connect, Schema Registry, Lenses UI)
+  kafka:
+    image: landoop/fast-data-dev:latest
+    environment:
+      - SUPERVISOR_USERNAME=admin
+      - SUPERVISOR_PASSWORD=secret
+      - CONNECTORS=elasticsearch,debezium-postgres 
+    ports:
+      - "2181:2181"  # Zookeeper
+      - "9092:9092"  # Kafka
+      - "8081:8081"  # Schema Registry
+      - "8082:8082"  # REST Proxy
+      - "8083:8083"  # Connect API
+      - "3030:3030"  # Lenses UI
+    networks:
+      - kafka-network
+
+  # PostgreSQL with Debezium CDC
+  postgres:
+    image: debezium/postgres:13
+
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=mydb
+    ports:
+      - "5432:5432"
+    networks:
+      - kafka-network
+
+  # Elasticsearch
+  elasticsearch:
+    image: elasticsearch:7.10.1
+    environment:
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
+    networks:
+      - kafka-network
+
+  # Kibana (optional for visualization)
+  kibana:
+    image: kibana:7.10.1
+    ports:
+      - "5601:5601"
+    networks:
+      - kafka-network
+    depends_on:
+      - elasticsearch
+
+networks:
+  kafka-network:
+    driver: bridge
