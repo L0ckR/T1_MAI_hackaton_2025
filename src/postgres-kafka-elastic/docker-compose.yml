@@ -18,7 +18,7 @@ services:
 
   # PostgreSQL with Debezium CDC
   postgres:
-    image: debezium/postgres:13
+    image: debezium/postgres:latest
 
     environment:
       - POSTGRES_USER=user
@@ -31,7 +31,7 @@ services:
 
   # Elasticsearch
   elasticsearch:
-    image: elasticsearch:7.10.1
+    image: elasticsearch:latest
     environment:
       - discovery.type=single-node
     ports:
@@ -41,7 +41,7 @@ services:
 
   # Kibana (optional for visualization)
   kibana:
-    image: kibana:7.10.1
+    image: kibana:latest
     ports:
       - "5601:5601"
     networks:
