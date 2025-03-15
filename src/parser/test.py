@@ -14,7 +14,8 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 llm = ChatGroq(
-    model_name="llama-3.3-70b-versatile",
+    # model_name="llama-3.3-70b-versatile",
+    model_name="qwen-2.5-coder-32b",
     temperature=0.1 
 )
 
@@ -131,9 +132,9 @@ def preprocess_html_content(content: str) -> str:
     
     print(text)
     
-    return text[:6000]
+    return text[6000:12000]
 
-def extract_cards_from_page(url: str = 'https://www.sravni.ru/karty/') -> Dict[str, Any]:
+def extract_cards_from_page(url: str = 'https://bankiros.ru/credit-cards') -> Dict[str, Any]:
     loader = AsyncChromiumLoader([url])
     html = loader.load()
 
