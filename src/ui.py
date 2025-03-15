@@ -74,7 +74,7 @@ def clean_context(ctx):
 
 st.set_page_config(page_title="Оптимизатор кредитных карт", layout="wide")
 
-st.title("Муравьиная ферма - AI-помощник по выбору лучшего предложения")
+st.title("Муравьиная ферма - Помощник по выбору лучшего предложения")
 
 threshold = 0.8
 

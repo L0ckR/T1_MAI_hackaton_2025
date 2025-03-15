@@ -36,7 +36,7 @@ def parse_sravni_cards():
     try:
         # Navigate to the URL
         print("Opening website...")
-        driver.get("https://www.sravni.ru/karty/")
+        driver.get("https://www.banki.ru/products/creditcards/?is_free_withdrawals=1")
         
         # Wait for the page to load completely
         print("Waiting for page to load...")
