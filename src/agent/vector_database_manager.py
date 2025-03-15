@@ -255,7 +255,7 @@ class VectorDatabaseManager:
             
         self.client.create_collection(
             collection_name='data', 
-            vectors_config=VectorParams(size=len(self.model.encode("test")), distance=Distance.COSINE)
+            vectors_config=VectorParams(size=len(self.model.embed_query("test")), distance=Distance.COSINE)
         )
         
         documents = []
@@ -377,24 +377,13 @@ if __name__ == '__main__':
     vb = VectorDatabaseManager('ai-forever/sbert_large_nlu_ru')
     
     # Пример использования с фильтрами
-    vb.VB_build('data/sravni_cards.csv')
+    #vb.VB_build('data/sravni_cards.csv')
     
     # Поиск без фильтров
-    results = vb.search_VB('кредитная карта с кэшбэком')
+    results = vb.search_VB('Кэшбек на такси и путешествия')
     print("Результаты без фильтров:")
     for r in results:
         print(f"Score: {r['score']}")
-        print(f"Content: {r['content'][:100]}...")
+        print(f"Content: {r['content']}...")
         print("-" * 50)
     
-    # Поиск с фильтрами
-    filters = {
-        'bank_name': 'Сбербанк',
-        'benefits': 'путешествия'
-    }
-    filtered_results = vb.search_VB('кредитная карта с кэшбэком', filters=filters)
-    print("\nРезультаты с фильтрами:")
-    for r in filtered_results:
-        print(f"Score: {r['score']}")
-        print(f"Content: {r['content'][:100]}...")
-        print("-" * 50)
