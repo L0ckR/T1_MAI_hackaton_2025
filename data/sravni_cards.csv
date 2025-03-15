@@ -1,64 +1,39 @@
-﻿bank_name,features,card_name
-Сбербанк,[],"Сбербанк
-Mir Classic
-СБЕРКАРТА
-2.7
-966 отзывов
-Льг"
-Банк Уралсиб,[],"Банк Уралсиб
-Mir Classic
-120 ДНЕЙ НА МАКСИМУМ
-3.2
-"
-Сбербанк,[],"Сбербанк
-Mir Classic
-СБЕРКАРТА МОЛОДЁЖНАЯ
-2.7
-966 "
-Альфа-Банк,[],"Альфа-Банк
-Mir Classic
-КРЕДИТНАЯ КАРТА АЛЬФА-БАНКА"
-Кредит Европа Банк (Россия),[],"Кредит Европа Банк (Россия)
-Mir Classic
-URBAN CARD"
-Т-Банк,[],"Т-Банк
-Mir Classic
-ПЛАТИНУМ
-3.7
-5 655 отзывов
-Льго"
-МТС Банк,[],"МТС Банк
-Mir Classic
-МТС ZERO
-3.3
-875 отзывов
-Льго"
-Азиатско-Тихоокеанский Банк,[],"Азиатско-Тихоокеанский Банк
-Visa Gold
-УНИВЕРСАЛЬНА"
-Отправить заявку,[],"ПСБ
-Mir Classic
-КРЕДИТНАЯ КАРТА 180 ДНЕЙ БЕЗ %
-3.1"
-Московский Кредитный Банк,[],"Московский Кредитный Банк
-Mir Classic
-МОЖНО БОЛЬШЕ"
-Сбербанк,[],"Сбербанк
-СБЕРКАРТА
-2.7
-966 отзывов
-Льготный период"
-Банк Уралсиб,[],"Банк Уралсиб
-120 ДНЕЙ НА МАКСИМУМ
-3.2
-144 отзыва
-Л"
-Сбербанк,[],"Сбербанк
-СБЕРКАРТА МОЛОДЁЖНАЯ
-2.7
-966 отзывов
-Льго"
-Альфа-Банк,[],"Альфа-Банк
-КРЕДИТНАЯ КАРТА АЛЬФА-БАНКА
-4.8
-10 968 "
+,cards
+0,"{'card_name': 'СберКарта', 'bank_name': 'Сбербанк', 'payment_system': 'МИР', 'credit_limit': 'до 1 млн ₽', 'interest_rate': None, 'grace_period': '120 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Бонусы за покупки', 'Доставка курьером', 'Бесплатные уведомления', 'Без справок о доходах', 'Для путешествий', 'Оплата смартфоном MirAccept', 'Бонусы в супермаркетах'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': 'Для путешествий', 'entertainment': None, 'online_shopping': None, 'other': 'Бонусы в супермаркетах'}}"
+1,"{'card_name': 'Мир Classic', 'bank_name': 'Банк Уралсиб', 'payment_system': 'МИР', 'credit_limit': 'до 5 млн ₽', 'interest_rate': None, 'grace_period': '120 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Бонусы за покупки', 'Доставка курьером', 'Наличные бесплатно', 'Без справок о доходах', 'Для путешествий', 'Оплата смартфоном MirAccept'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': 'Для путешествий', 'entertainment': None, 'online_shopping': None, 'other': None}}"
+2,"{'card_name': 'СберКарта Молодёжная', 'bank_name': 'Сбербанк', 'payment_system': 'МИР', 'credit_limit': 'до 1 млн ₽', 'interest_rate': None, 'grace_period': '120 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Бонусы за покупки', 'Доставка курьером', 'Бесплатные уведомления', 'Без справок о доходах', 'Для путешествий', 'Оплата смартфоном MirAccept', 'Бонусы в супермаркетах'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': 'Для путешествий', 'entertainment': None, 'online_shopping': None, 'other': 'Бонусы в супермаркетах'}}"
+3,"{'card_name': 'Кредитная карта Альфа-Банка', 'bank_name': 'Альфа-Банк', 'payment_system': 'МИР', 'credit_limit': 'до 1 млн ₽', 'interest_rate': None, 'grace_period': '60 дней', 'annual_fee': 'от 0 до 990 ₽ в год', 'cashback': None, 'features': ['С кэшбеком', 'Бонусы за покупки', 'Доставка курьером', 'Без справок о доходах', 'Для путешествий', 'Оплата смартфоном MirAccept', 'Для самозанятых', 'Платежный стикер'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': 'Для путешествий', 'entertainment': None, 'online_shopping': None, 'other': None}}"
+4,"{'card_name': 'Urban card', 'bank_name': 'Кредит Европа Банк (Россия)', 'payment_system': 'МИР', 'credit_limit': 'до 600 000 ₽', 'interest_rate': None, 'grace_period': '55 дней', 'annual_fee': 'Бесплатно', 'cashback': 'С кэшбеком', 'features': ['Бонусы за покупки', 'Доставка курьером', 'Рассрочка', 'Оплата смартфоном MirAccept', 'Для самозанятых', 'Бонусы на АЗС', 'Бонусы на такси', 'Платежный стикер'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': None, 'entertainment': None, 'online_shopping': None, 'other': 'Бонусы на АЗС, Бонусы на такси'}}"
+5,"{'card_name': 'Платинум', 'bank_name': 'Т-Банк', 'payment_system': 'МИР', 'credit_limit': 'до 1 млн ₽', 'interest_rate': None, 'grace_period': '55 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Бонусы за покупки', 'Доставка курьером', 'Без справок о доходах', 'Для путешествий', 'Рассрочка', 'Оплата смартфоном MirAccept', 'Платежный стикер'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': 'Для путешествий', 'entertainment': None, 'online_shopping': None, 'other': None}}"
+6,"{'card_name': 'МТС Zero', 'bank_name': 'МТС Банк', 'payment_system': 'МИР', 'credit_limit': 'до 300 000 ₽', 'interest_rate': None, 'grace_period': '1 115 дней', 'annual_fee': 'от 0 до 2 370 ₽ в мес', 'cashback': 'С кэшбеком', 'features': ['Бонусы за покупки', 'Доставка курьером', 'Наличные бесплатно', 'Без справок о доходах', 'Оплата смартфоном MirAccept', 'Бонусы за медицинские услуги', 'Платежный стикер'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': None, 'entertainment': None, 'online_shopping': None, 'other': 'Бонусы за медицинские услуги'}}"
+7,"{'card_name': 'Универсальная', 'bank_name': 'Азиатско-Тихоокеанский Банк', 'payment_system': 'VISA', 'credit_limit': 'до 500 000 ₽', 'interest_rate': None, 'grace_period': '212 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Бонусы за покупки', 'Наличные бесплатно', 'Без справок о доходах', 'Оплата смартфоном 3D Secure', 'Для самозанятых'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': None, 'entertainment': None, 'online_shopping': None, 'other': None}}"
+8,"{'card_name': 'Кредитная карта', 'bank_name': 'ПСБ', 'payment_system': 'МИР', 'credit_limit': None, 'interest_rate': None, 'grace_period': '180 дней', 'annual_fee': None, 'cashback': None, 'features': [], 'benefits': {'restaurants': None, 'groceries': None, 'travel': None, 'entertainment': None, 'online_shopping': None, 'other': None}}"
+9,"{'card_name': 'Волна', 'bank_name': 'Сбербанк', 'payment_system': 'VISA', 'credit_limit': 'до 100 000 рублей', 'interest_rate': '20% годовых', 'grace_period': 'до 50 дней', 'annual_fee': '1 200 рублей в год', 'cashback': '1% на все покупки', 'features': ['отсутствие комиссии за снятие наличных', 'возможность получения кредита на любые цели', 'круглосуточная поддержка клиентов'], 'benefits': {'restaurants': '5% в ресторанах', 'groceries': '3% в супермаркетах', 'travel': '2% на путешествия', 'entertainment': None, 'online_shopping': None, 'other': None}}"
+10,"{'card_name': 'Оптима', 'bank_name': 'ВТБ', 'payment_system': 'MasterCard', 'credit_limit': 'до 200 000 рублей', 'interest_rate': '25% годовых', 'grace_period': 'до 60 дней', 'annual_fee': '2 000 рублей в год', 'cashback': '2% на все покупки', 'features': ['высокий кредитный лимит', 'возможность получения кредита на любые цели', 'страхование покупок'], 'benefits': {'restaurants': '10% в ресторанах', 'groceries': '5% в супермаркетах', 'travel': '3% на путешествия', 'entertainment': None, 'online_shopping': None, 'other': None}}"
+11,"{'card_name': 'Уралсиб 120 дней на максимум', 'bank_name': 'Уралсиб', 'payment_system': 'VISA', 'credit_limit': 'До 1 000 000 рублей', 'interest_rate': '34.903%–99.921% годовых', 'grace_period': 'До 120 дней', 'annual_fee': '0 рублей в год', 'cashback': '2% на все покупки', 'features': ['Бесплатное обслуживание', 'Льготный период до 120 дней', 'Без комиссии за получение наличных'], 'benefits': {'restaurants': '3% в ресторанах', 'groceries': '2% в супермаркетах', 'travel': '5% на путешествия', 'entertainment': '3% на развлечения', 'online_shopping': '2% на онлайн-покупки', 'other': 'Другие специальные условия'}}"
+12,"{'card_name': 'Т-Банк Платинум', 'bank_name': 'Т-Банк', 'payment_system': 'MasterCard', 'credit_limit': 'До 500 000 рублей', 'interest_rate': '29.855%–59.999% годовых', 'grace_period': 'До 120 дней', 'annual_fee': '0 - 590 рублей в год', 'cashback': '1% на все покупки', 'features': ['Бесплатное годовое обслуживание при оформлении на Банки.ру', 'Баллы до 6000/мес', 'Без комиссии за получение наличных'], 'benefits': {'restaurants': '2% в ресторанах', 'groceries': '1% в супермаркетах', 'travel': '3% на путешествия', 'entertainment': '2% на развлечения', 'online_shopping': '1% на онлайн-покупки', 'other': 'Розыгрыш с призовым фондом 4'}}"
+13,"{'card_name': 'Кредитная карта Подробнее Далее Доставка', 'bank_name': 'Альфа-Банк', 'payment_system': None, 'credit_limit': '000 000 ₽', 'interest_rate': '49.49% годовых', 'grace_period': 'До 100 дней', 'annual_fee': '0 - 990 ₽', 'cashback': None, 'features': ['Льготный период до 100 дней', 'Бонусы Нет'], 'benefits': {}}"
+14,"{'card_name': 'СберКарта Подробнее Далее Доставка', 'bank_name': 'Сбербанк', 'payment_system': None, 'credit_limit': '000 000 ₽', 'interest_rate': '9.8%–49.8% годовых', 'grace_period': 'До 120 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Льготный период до 120 дней', 'Баллы до 2000/мес.'], 'benefits': {}}"
+15,"{'card_name': '120 дней без процентов Подробнее Далее Доставка', 'bank_name': 'ОТП Банк', 'payment_system': None, 'credit_limit': '000 000 ₽', 'interest_rate': '39.9% годовых', 'grace_period': 'До 120 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Льготный период до 120 дней'], 'benefits': {}}"
+16,"{'card_name': 'Card Credit Plus Подробнее Далее Доставка', 'bank_name': 'Кредит Европа Банк', 'payment_system': None, 'credit_limit': '000 000 ₽', 'interest_rate': '0%–29.9% годовых', 'grace_period': 'До 55 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Льготный период до 55 дней', 'Баллы до 5000/мес.'], 'benefits': {}}"
+17,"{'card_name': '112 дней без % Подробнее Далее Доставка', 'bank_name': 'Банк ПТБ', 'payment_system': None, 'credit_limit': '000 000 ₽', 'interest_rate': '40% годовых', 'grace_period': 'До 112 дней', 'annual_fee': '0 - 1 188 ₽', 'cashback': None, 'features': ['Льготный период до 112 дней', 'Баллы до 10000/мес.'], 'benefits': {}}"
+18,"{'card_name': 'Премиальная Карта возможностей Подробнее Далее Доставка', 'bank_name': 'ВТБ', 'payment_system': None, 'credit_limit': '000 000 ₽', 'interest_rate': '49.9%–69.9% годовых', 'grace_period': 'До 200 дней', 'annual_fee': '0 - 35 880 ₽', 'cashback': 'до 15%', 'features': ['Льготный период до 200 дней', 'Кэшбэк до 15%'], 'benefits': {}}"
+19,"{'card_name': 'ДА! Подробнее Далее', 'bank_name': 'Банк Синара', 'payment_system': None, 'credit_limit': '000 000 ₽', 'interest_rate': '24.9%–59% годовых', 'grace_period': 'До 56 дней', 'annual_fee': '0 - 1 788 ₽', 'cashback': None, 'features': ['Льготный период до 56 дней', 'Баллы до 3000/мес.'], 'benefits': {}}"
+20,"{'card_name': 'Карта с льготным периодом Подробнее Далее', 'bank_name': 'Металлинвестбанк', 'payment_system': None, 'credit_limit': '000 000 ₽', 'interest_rate': '39.9% годовых', 'grace_period': 'До 55 дней', 'annual_fee': '500 ₽', 'cashback': 'Есть', 'features': ['Льготный период до 55 дней', 'Кэшбэк есть'], 'benefits': {}}"
+21,"{'card_name': 'Т-Банк Платинум', 'bank_name': 'Т-Банк', 'payment_system': None, 'credit_limit': None, 'interest_rate': '34.903%–99.921%', 'grace_period': '120 дней', 'annual_fee': '0 рублей в год', 'cashback': '34.9%–99.9%', 'features': ['Бесплатное годовое обслуживание при оформлении на Банки.ру'], 'benefits': None}"
+22,"{'card_name': 'Альфа-Банк Кредитная карта', 'bank_name': 'Альфа-Банк', 'payment_system': None, 'credit_limit': None, 'interest_rate': '29.855%–59.999%', 'grace_period': '100 дней', 'annual_fee': '0 - 990 ₽', 'cashback': '590 ₽ до 6000 баллов/мес', 'features': None, 'benefits': None}"
+23,"{'card_name': 'Сбербанк СберКарта', 'bank_name': 'Сбербанк', 'payment_system': None, 'credit_limit': None, 'interest_rate': '46.908%–48.828%', 'grace_period': '120 дней бесплатно', 'annual_fee': None, 'cashback': '9.8%–49.8%', 'features': None, 'benefits': None}"
+24,"{'card_name': 'ОТП Банк', 'bank_name': 'ОТП Банк', 'payment_system': None, 'credit_limit': None, 'interest_rate': '37.900%–39.900%', 'grace_period': '120 дней без процентов', 'annual_fee': None, 'cashback': None, 'features': None, 'benefits': None}"
+25,"{'card_name': 'Металлинвестбанк Карта с льготным периодом', 'bank_name': 'Металлинвестбанк', 'payment_system': None, 'credit_limit': None, 'interest_rate': '0.032%–28.913%', 'grace_period': 'до 55 дней', 'annual_fee': '500 ₽', 'cashback': 'есть', 'features': None, 'benefits': None}"
+26,"{'card_name': 'Кредит Европа Банк Card Credit Plus', 'bank_name': 'Кредит Европа Банк', 'payment_system': None, 'credit_limit': None, 'interest_rate': '0.000%–28.124%', 'grace_period': 'до 55 дней бесплатно', 'annual_fee': None, 'cashback': '0%–29.9%', 'features': None, 'benefits': None}"
+27,"{'card_name': 'Банк ПТБ', 'bank_name': 'Банк ПТБ', 'payment_system': None, 'credit_limit': None, 'interest_rate': '42.336%–51.828%', 'grace_period': '112 дней без %', 'annual_fee': '0 - 1 188 ₽', 'cashback': 'до 10 000 баллов/мес', 'features': None, 'benefits': None}"
+28,"{'card_name': 'ВТБ Премиальная Карта возможностей', 'bank_name': 'ВТБ', 'payment_system': None, 'credit_limit': None, 'interest_rate': '47.000%–69.900%', 'grace_period': 'до 200 дней', 'annual_fee': '0 - 35 880 ₽', 'cashback': 'до 15%', 'features': None, 'benefits': None}"
+29,"{'card_name': 'ЮниКредит Банк АвтоКарта', 'bank_name': 'ЮниКредит Банк', 'payment_system': None, 'credit_limit': None, 'interest_rate': '43.367%–54.436%', 'grace_period': 'до 55 дней', 'annual_fee': '1 990 ₽', 'cashback': 'до 4000 баллов/мес', 'features': None, 'benefits': None}"
+30,"{'card_name': 'СберКарта', 'bank_name': 'Сбербанк', 'payment_system': 'МИР', 'credit_limit': 'До 100 000 рублей', 'interest_rate': '15% годовых', 'grace_period': 'До 120 дней', 'annual_fee': '0 рублей в год', 'cashback': '1% на все покупки', 'features': ['Льготный период до 120 дней', 'Беспроцентные покупки в СберМаркет', 'Беспроцентные снятия наличных в СберБанке'], 'benefits': {'restaurants': '2% в ресторанах', 'groceries': '1% в супермаркетах', 'travel': '3% на авиабилеты', 'entertainment': '2% на развлечения', 'online_shopping': '1% на онлайн-покупки', 'other': 'Дополнительные бонусы за использование Сбер-сервисов'}}"
+31,"{'card_name': 'Zero', 'bank_name': 'МТС Банк', 'payment_system': 'VISA', 'credit_limit': 'До 50 000 рублей', 'interest_rate': '20% годовых', 'grace_period': 'До 1115 дней', 'annual_fee': '500 рублей в год', 'cashback': '1% на все покупки', 'features': ['Льготный период до 1115 дней', 'Беспроцентные покупки в сети МТС', 'Беспроцентные снятия наличных в банкоматах МТС'], 'benefits': {'restaurants': '2% в ресторанах', 'groceries': '1% в супермаркетах', 'travel': '3% на авиабилеты', 'entertainment': '2% на развлечения', 'online_shopping': '1% на онлайн-покупки', 'other': 'Дополнительные бонусы за использование МТС-сервисов'}}"
+32,"{'card_name': 'Mir Classic', 'bank_name': 'Московский Кредитный Банк', 'payment_system': 'МИР', 'credit_limit': 'До 1 млн ₽', 'interest_rate': '3.1% годовых', 'grace_period': 'До 180 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Без справок о доходах', 'Оплата смартфоном', 'MirAccept'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': None, 'entertainment': None, 'online_shopping': None, 'other': 'Доставка курьером'}}"
+33,"{'card_name': 'СберКарта', 'bank_name': 'Сбербанк', 'payment_system': None, 'credit_limit': 'До 1 млн ₽', 'interest_rate': '2.7% годовых', 'grace_period': 'До 120 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Без справок о доходах', 'Для путешествий', 'Оплата смартфоном'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': None, 'entertainment': None, 'online_shopping': None, 'other': None}}"
+34,"{'card_name': 'СберКарта Молодёжная', 'bank_name': 'Сбербанк', 'payment_system': None, 'credit_limit': 'До 1 млн ₽', 'interest_rate': '2.7% годовых', 'grace_period': 'До 120 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Без справок о доходах', 'Для путешествий', 'Оплата смартфоном'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': None, 'entertainment': None, 'online_shopping': None, 'other': None}}"
+35,"{'card_name': 'Кредитная карта Альфа-Банка', 'bank_name': 'Альфа-Банк', 'payment_system': None, 'credit_limit': 'До 1 млн ₽', 'interest_rate': '4.8% годовых', 'grace_period': 'До 60 дней', 'annual_fee': 'От 0 до 990 ₽ в год', 'cashback': None, 'features': ['Кэшбэк по всем покупкам', 'Без справок о доходах', 'Оплата смартфоном'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': None, 'entertainment': None, 'online_shopping': None, 'other': None}}"
+36,"{'card_name': 'My Freedom', 'bank_name': 'Уральский Банк реконструкции и развития', 'payment_system': None, 'credit_limit': 'До 5 млн ₽', 'interest_rate': '3.2% годовых', 'grace_period': 'До 115 дней', 'annual_fee': 'Бесплатно', 'cashback': None, 'features': ['Кэшбэк', 'Оплата смартфоном'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': None, 'entertainment': None, 'online_shopping': None, 'other': None}}"
+37,"{'card_name': 'Своя Кредитка', 'bank_name': 'Свой Банк', 'payment_system': None, 'credit_limit': None, 'interest_rate': None, 'grace_period': 'До 120 дней', 'annual_fee': None, 'cashback': None, 'features': ['Кэшбэк', 'Оплата смартфоном'], 'benefits': {'restaurants': None, 'groceries': None, 'travel': None, 'entertainment': None, 'online_shopping': None, 'other': None}}"
